@@ -12,7 +12,7 @@
 
 **Digital Presence** · **No backend. No login. Client data stays local.**
 
-[Live app](https://volta-npo.github.io/03-gbp-readiness-check/) · [Report an issue](https://github.com/volta-npo/03-gbp-readiness-check/issues) · [Volta](https://voltanpo.org)
+[Live app](https://volta-npo.github.io/gbp-readiness-check/) · [Report an issue](https://github.com/volta-npo/gbp-readiness-check/issues) · [Volta](https://voltanpo.org)
 
 </div>
 
@@ -182,7 +182,7 @@ This repo is designed to be usable as a real OSS product, not just a static demo
 ## 🛠️ Quick start
 
 ```bash
-git clone https://github.com/volta-npo/03-gbp-readiness-check.git
+git clone https://github.com/volta-npo/gbp-readiness-check.git
 cd 03-gbp-readiness-check
 npm install
 npm test

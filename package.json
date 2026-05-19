@@ -29,11 +29,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/volta-npo/03-gbp-readiness-check.git"
+    "url": "git+https://github.com/volta-npo/gbp-readiness-check.git"
   },
-  "homepage": "https://volta-npo.github.io/03-gbp-readiness-check/",
+  "homepage": "https://volta-npo.github.io/gbp-readiness-check/",
   "bugs": {
-    "url": "https://github.com/volta-npo/03-gbp-readiness-check/issues"
+    "url": "https://github.com/volta-npo/gbp-readiness-check/issues"
   },
   "author": "Volta Open Source <volta.npo@gmail.com>",
   "engines": {
