@@ -23,4 +23,19 @@ export declare const domain: {
     artifacts: string[];
     checks: string[];
     sampleClient: string;
+    saas: {
+        personas: string[];
+        stages: {
+            name: string;
+            goal: string;
+            rowPatterns: string[];
+        }[];
+        sampleValues: {
+            "primary-goal": string;
+        };
+        sampleRows: {
+            "Duplicate listing risk checked": string;
+            "Post-launch GBP maintenance cadence set": string;
+        };
+    };
 };

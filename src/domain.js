@@ -76,18 +76,38 @@ export const domain = {
         "Photos checklist complete",
         "Services/menu fields reviewed",
         "Ownership status captured",
-        "Access request script generated"
+        "Access request script generated",
+        "Duplicate listing risk checked",
+        "Review response plan drafted",
+        "Photo upload plan prioritized",
+        "Post-launch GBP maintenance cadence set"
     ],
     "artifacts": [
         "Owner access request",
         "GBP handoff packet",
-        "Listing fields CSV"
+        "Listing fields CSV",
+        "Ownership transfer checklist",
+        "Photo and updates calendar",
+        "GBP maintenance SOP"
     ],
     "checks": [
         "NAP fields required",
         "Public claims need screenshot evidence",
-        "Ownership blocker prevents ready state"
+        "Ownership blocker prevents ready state",
+        "Duplicate listing risk must be noted",
+        "Maintenance cadence required before launch",
+        "Owner script must avoid requesting passwords"
     ],
-    "sampleClient": "Riverside Community Bakery"
+    "sampleClient": "Riverside Community Bakery",
+    "saas": {
+        "personas": ["GBP readiness coach", "Business owner", "Volunteer listing reviewer"],
+        "stages": [
+            { "name": "Public listing audit", "goal": "Validate visible listing fields before any account access is granted.", "rowPatterns": ["Business name|Address|category|Photos|Duplicate"] },
+            { "name": "Ownership readiness", "goal": "Prepare the owner for safe access transfer and blocker resolution.", "rowPatterns": ["Ownership|Access request|script|Owner"] },
+            { "name": "Maintenance plan", "goal": "Create a repeatable cadence for photos, posts, services, and review replies.", "rowPatterns": ["Review|Photo|maintenance|cadence"] }
+        ],
+        "sampleValues": { "primary-goal": "complete a no-password GBP handoff and maintenance plan" },
+        "sampleRows": { "Duplicate listing risk checked": "No obvious duplicate listing found in public Maps search", "Post-launch GBP maintenance cadence set": "Owner will review photos, hours, and updates every month" }
+    }
 };
 //# sourceMappingURL=domain.js.map
