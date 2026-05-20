@@ -22,6 +22,24 @@ export declare const domain: {
     rows: string[];
     artifacts: string[];
     checks: string[];
+    modules: {
+        name: string;
+        description: string;
+        metrics: string[];
+        deliverable: string;
+    }[];
+    plays: {
+        name: string;
+        trigger: string;
+        outcome: string;
+    }[];
+    economics: {
+        buyer: string;
+        valueMetric: string;
+        priceHint: string;
+        northStar: string;
+    };
+    exportSuite: string[];
     sampleClient: string;
     saas: {
         personas: string[];
@@ -34,8 +52,18 @@ export declare const domain: {
             "primary-goal": string;
         };
         sampleRows: {
-            "Duplicate listing risk checked": string;
-            "Post-launch GBP maintenance cadence set": string;
+            "Business appears in search": string;
+            "NAP matches website": string;
+            "Primary category identified": string;
+            "Hours visible and current": string;
+            "Services/products listed": string;
+            "Photos show location/product": string;
+            "Ownership/access path documented": string;
+            "Update backlog prioritized": string;
+            "Duplicate listing risk assessed": string;
+            "Q&A and messages policy drafted": string;
+            "Verification blocker owner assigned": string;
+            "Maintenance cadence planned": string;
         };
     };
 };
